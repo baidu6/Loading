@@ -44,7 +44,7 @@ class TapAnimationCell: CustomCell {
         self.addSubview(lineView)
         
         if let model = self.model{
-            titleLabel
+            titleLabel.text = model.name
         }
     }
     
