@@ -16,6 +16,7 @@
 		040EFA201E6667CF0057AB52 /* InteractionViewControoler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EFA1F1E6667CF0057AB52 /* InteractionViewControoler.swift */; };
 		040EFA221E66779D0057AB52 /* EmitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EFA211E66779D0057AB52 /* EmitterViewController.swift */; };
 		040EFA241E6697160057AB52 /* UCHeaderPullAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EFA231E6697160057AB52 /* UCHeaderPullAnimationViewController.swift */; };
+		0411423E1E78E8B900663882 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411423D1E78E8B900663882 /* ChannelViewController.swift */; };
 		04158BB31E6E833F00CF50B8 /* HighManagerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04158BB21E6E833F00CF50B8 /* HighManagerDetailViewController.swift */; };
 		04158BB51E6E866D00CF50B8 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04158BB41E6E866D00CF50B8 /* DetailHeaderView.swift */; };
 		04158BB71E6E87F700CF50B8 /* DetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04158BB61E6E87F700CF50B8 /* DetailHeaderView.xib */; };
@@ -82,6 +83,7 @@
 		040EFA1F1E6667CF0057AB52 /* InteractionViewControoler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractionViewControoler.swift; sourceTree = "<group>"; };
 		040EFA211E66779D0057AB52 /* EmitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterViewController.swift; sourceTree = "<group>"; };
 		040EFA231E6697160057AB52 /* UCHeaderPullAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCHeaderPullAnimationViewController.swift; sourceTree = "<group>"; };
+		0411423D1E78E8B900663882 /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		04158BB21E6E833F00CF50B8 /* HighManagerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighManagerDetailViewController.swift; sourceTree = "<group>"; };
 		04158BB41E6E866D00CF50B8 /* DetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 		04158BB61E6E87F700CF50B8 /* DetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailHeaderView.xib; sourceTree = "<group>"; };
@@ -184,6 +186,14 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		0411423C1E78E89400663882 /* 长按拖拽编辑 */ = {
+			isa = PBXGroup;
+			children = (
+				0411423D1E78E8B900663882 /* ChannelViewController.swift */,
+			);
+			name = "长按拖拽编辑";
+			sourceTree = "<group>";
+		};
 		043481951E6FB883000AAB5F /* TableView点击动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +230,7 @@
 		047A05211E4995AF00D2CDB5 /* Loading */ = {
 			isa = PBXGroup;
 			children = (
+				0411423C1E78E89400663882 /* 长按拖拽编辑 */,
 				047AF3121E77CF92007E6A0C /* 侧滑 */,
 				040EDEC51E6D34B200EA70A7 /* 高端理财 */,
 				047A05221E4995AF00D2CDB5 /* AppDelegate.swift */,
@@ -527,6 +538,7 @@
 				043481941E6FAFEF000AAB5F /* TableViewTapAnimationController.swift in Sources */,
 				040EFA221E66779D0057AB52 /* EmitterViewController.swift in Sources */,
 				047AF31A1E77F2D7007E6A0C /* NavgationView.swift in Sources */,
+				0411423E1E78E8B900663882 /* ChannelViewController.swift in Sources */,
 				04CC7F881E4DB3AD002A0958 /* NavigationWavaViewController.swift in Sources */,
 				0465A3A21E4C701E00BAB06D /* ShoppingViewController.swift in Sources */,
 				04B9EC111E5588E60036D561 /* CircleSpreadViewController.swift in Sources */,

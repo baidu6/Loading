@@ -69,7 +69,7 @@ class ViewController: UIViewController {
     
     fileprivate lazy var tableView:UITableView = UITableView(frame:  CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height), style: UITableViewStyle.plain)
     
-    fileprivate var titlesArr:[String] = ["登录捂眼动画","进度条动画","Loading动画","登录炫酷动画","加入购物车","签到动画","导航波纹","数字金额变化","鼓掌动画","手势密码解锁","转场动画--小圆点扩散","转场动画---弹性pop","网上学习布局方式练习","可以点击的饼图","导航波纹","IOS和H5手势交互","粒子点赞效果","仿UC头部下拉动画","数字上下滑动动画效果","高端理财","tableView点击状态的切换效果","牛逼的侧滑效果"]
+    fileprivate var titlesArr:[String] = ["登录捂眼动画","进度条动画","Loading动画","登录炫酷动画","加入购物车","签到动画","导航波纹","数字金额变化","鼓掌动画","手势密码解锁","转场动画--小圆点扩散","转场动画---弹性pop","网上学习布局方式练习","可以点击的饼图","导航波纹","IOS和H5手势交互","粒子点赞效果","仿UC头部下拉动画","数字上下滑动动画效果","高端理财","tableView点击状态的切换效果","牛逼的侧滑效果","长按移动标签"]
 
     
     lazy var temperView:UIView = UIView()
@@ -181,6 +181,9 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
             self.present(nav, animated: true, completion: nil)
         }else if indexPath.row == 21{
             self.present(DragerViewController(), animated: true, completion: nil)
+        }else if indexPath.row == 22{
+            let nav = UINavigationController(rootViewController: ChannelViewController())
+            self.present(nav, animated: true, completion: nil)
         }
     }
 }
