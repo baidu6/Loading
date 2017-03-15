@@ -137,6 +137,27 @@ extension ChannelViewController:UICollectionViewDelegate,UICollectionViewDataSou
         cell.isEdite = isEdite
         return cell
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if indexPath.section == 0 {
+            if isEdite == true{
+                if indexPath.item == 0{
+                    return
+                }
+                let text = selectedArr[indexPath.row]
+                recommendArr.insert(text, at: 0)
+                selectedArr.remove(at: indexPath.row)
+                collectionView.moveItem(at: indexPath, to: IndexPath(row: 0, section: 1))
+            }else if isEdite == false{
+                print("普通的点击事件，哈哈哈")
+            }
+        }else if indexPath.section == 1{
+            
+            let text = recommendArr[indexPath.row]
+            recommendArr.remove(at: indexPath.row)
+            selectedArr.append(text)
+            collectionView.moveItem(at: indexPath, to: IndexPath(item: selectedArr.count - 1, section: 0))
+        }
+    }
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: ChannelCollectionHeaderViewID, for: indexPath) as! ChannelCollectionHeaderView
         header.text = isEdite ? headerArr[1][indexPath.section] : headerArr[0][indexPath.section]
