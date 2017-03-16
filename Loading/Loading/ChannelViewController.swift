@@ -23,7 +23,6 @@ class ChannelViewController:UIViewController{
     var targetIndexPath:IndexPath?
     
     fileprivate lazy var collectionView:UICollectionView = {
-        
         let collectionV = UICollectionView(frame: CGRect(x: 0, y: 0, width: KWidth, height: KHeight), collectionViewLayout: ChannelViewFlowLayout())
         collectionV.delegate = self
         collectionV.dataSource = self
@@ -39,6 +38,13 @@ class ChannelViewController:UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupNav()
+        setupCollectionView()
+        
+    }
+    
+    //MARK:初始化collectionView
+    func setupCollectionView() -> Void {
         collectionView.backgroundColor = UIColor.white
         collectionView.register(ChannelCollectionViewCell.self, forCellWithReuseIdentifier: ChannelCollectionViewCellID)
         collectionView.register(ChannelCollectionHeaderView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: ChannelCollectionHeaderViewID)
@@ -50,6 +56,17 @@ class ChannelViewController:UIViewController{
         collectionView.addGestureRecognizer(pressGesture)
     }
     
+    //MARK:初始化导航
+    func setupNav() -> Void {
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(back))
+    }
+    
+    //MARK:返回
+    func back() -> Void {
+        self.navigationController?.dismiss(animated: true, completion: nil)
+    }
+    
+    //MARK:长按方法
     func longPress(longPressG:UILongPressGestureRecognizer) -> Void {
         if  isEdite == false{
             isEdite = !isEdite
