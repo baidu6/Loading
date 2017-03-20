@@ -98,7 +98,6 @@ class NavWaveView: UIView {
         maskPath.closeSubpath()
         maskWaveLayer.path = maskPath
         maskWaveLayer.fillColor = MaskFillColor
-        
     }
     
     required init?(coder aDecoder: NSCoder) {

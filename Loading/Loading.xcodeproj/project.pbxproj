@@ -24,7 +24,15 @@
 		04158BB31E6E833F00CF50B8 /* HighManagerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04158BB21E6E833F00CF50B8 /* HighManagerDetailViewController.swift */; };
 		04158BB51E6E866D00CF50B8 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04158BB41E6E866D00CF50B8 /* DetailHeaderView.swift */; };
 		04158BB71E6E87F700CF50B8 /* DetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04158BB61E6E87F700CF50B8 /* DetailHeaderView.xib */; };
+		04186D281E7B87AB00CC4951 /* MenuHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04186D271E7B87AB00CC4951 /* MenuHomeViewController.swift */; };
+		04186D2A1E7B87B900CC4951 /* MenuMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04186D291E7B87B900CC4951 /* MenuMainViewController.swift */; };
+		04186D2C1E7B87C400CC4951 /* MenuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04186D2B1E7B87C400CC4951 /* MenuDetailViewController.swift */; };
+		04186D2E1E7B888000CC4951 /* MenuHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04186D2D1E7B888000CC4951 /* MenuHomeViewController.xib */; };
+		04186D301E7B8DEB00CC4951 /* MenuMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04186D2F1E7B8DEB00CC4951 /* MenuMainViewController.xib */; };
+		04186D321E7BB29900CC4951 /* MenuDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04186D311E7BB29900CC4951 /* MenuDetailViewController.xib */; };
+		04186D351E7BDF2200CC4951 /* MaskTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04186D341E7BDF2200CC4951 /* MaskTestViewController.swift */; };
 		041EE3EE1E54051300593A77 /* GestureUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EE3ED1E54051300593A77 /* GestureUnlockViewController.swift */; };
+		041FD6BC1E7FAB32004F3B33 /* ScaleLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FD6BB1E7FAB32004F3B33 /* ScaleLabelViewController.swift */; };
 		043481941E6FAFEF000AAB5F /* TableViewTapAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043481931E6FAFEF000AAB5F /* TableViewTapAnimationController.swift */; };
 		043481971E6FB99E000AAB5F /* TapAnimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043481961E6FB99E000AAB5F /* TapAnimationCell.swift */; };
 		043D79991E4AB7FE00B80296 /* LoadingIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D79981E4AB7FE00B80296 /* LoadingIndicatorViewController.swift */; };
@@ -95,7 +103,15 @@
 		04158BB21E6E833F00CF50B8 /* HighManagerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighManagerDetailViewController.swift; sourceTree = "<group>"; };
 		04158BB41E6E866D00CF50B8 /* DetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 		04158BB61E6E87F700CF50B8 /* DetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailHeaderView.xib; sourceTree = "<group>"; };
+		04186D271E7B87AB00CC4951 /* MenuHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHomeViewController.swift; sourceTree = "<group>"; };
+		04186D291E7B87B900CC4951 /* MenuMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuMainViewController.swift; sourceTree = "<group>"; };
+		04186D2B1E7B87C400CC4951 /* MenuDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailViewController.swift; sourceTree = "<group>"; };
+		04186D2D1E7B888000CC4951 /* MenuHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuHomeViewController.xib; sourceTree = "<group>"; };
+		04186D2F1E7B8DEB00CC4951 /* MenuMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuMainViewController.xib; sourceTree = "<group>"; };
+		04186D311E7BB29900CC4951 /* MenuDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuDetailViewController.xib; sourceTree = "<group>"; };
+		04186D341E7BDF2200CC4951 /* MaskTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskTestViewController.swift; sourceTree = "<group>"; };
 		041EE3ED1E54051300593A77 /* GestureUnlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureUnlockViewController.swift; sourceTree = "<group>"; };
+		041FD6BB1E7FAB32004F3B33 /* ScaleLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleLabelViewController.swift; sourceTree = "<group>"; };
 		043481931E6FAFEF000AAB5F /* TableViewTapAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewTapAnimationController.swift; sourceTree = "<group>"; };
 		043481961E6FB99E000AAB5F /* TapAnimationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAnimationCell.swift; sourceTree = "<group>"; };
 		043D79981E4AB7FE00B80296 /* LoadingIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorViewController.swift; sourceTree = "<group>"; };
@@ -236,6 +252,43 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		04186D251E7B877400CC4951 /* Menu菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				04186D261E7B878700CC4951 /* Controller */,
+			);
+			name = "Menu菜单";
+			sourceTree = "<group>";
+		};
+		04186D261E7B878700CC4951 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04186D271E7B87AB00CC4951 /* MenuHomeViewController.swift */,
+				04186D2D1E7B888000CC4951 /* MenuHomeViewController.xib */,
+				04186D291E7B87B900CC4951 /* MenuMainViewController.swift */,
+				04186D2F1E7B8DEB00CC4951 /* MenuMainViewController.xib */,
+				04186D2B1E7B87C400CC4951 /* MenuDetailViewController.swift */,
+				04186D311E7BB29900CC4951 /* MenuDetailViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04186D331E7BDEB900CC4951 /* mask使用，渐变进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				04186D341E7BDF2200CC4951 /* MaskTestViewController.swift */,
+			);
+			name = "mask使用，渐变进度条";
+			sourceTree = "<group>";
+		};
+		041FD6BA1E7F786E004F3B33 /* UILabel的缩放动画 */ = {
+			isa = PBXGroup;
+			children = (
+				041FD6BB1E7FAB32004F3B33 /* ScaleLabelViewController.swift */,
+			);
+			name = "UILabel的缩放动画";
+			sourceTree = "<group>";
+		};
 		043481951E6FB883000AAB5F /* TableView点击动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +325,9 @@
 		047A05211E4995AF00D2CDB5 /* Loading */ = {
 			isa = PBXGroup;
 			children = (
+				041FD6BA1E7F786E004F3B33 /* UILabel的缩放动画 */,
+				04186D331E7BDEB900CC4951 /* mask使用，渐变进度条 */,
+				04186D251E7B877400CC4951 /* Menu菜单 */,
 				041142441E7952F700663882 /* 导航双波浪动画波纹 */,
 				0411423F1E793E6200663882 /* Cell折叠效果 */,
 				0411423C1E78E89400663882 /* 长按拖拽编辑 */,
@@ -485,7 +541,10 @@
 				047AF31C1E77F31B007E6A0C /* NavgationView.xib in Resources */,
 				04158BB71E6E87F700CF50B8 /* DetailHeaderView.xib in Resources */,
 				047A052D1E4995AF00D2CDB5 /* LaunchScreen.storyboard in Resources */,
+				04186D301E7B8DEB00CC4951 /* MenuMainViewController.xib in Resources */,
+				04186D321E7BB29900CC4951 /* MenuDetailViewController.xib in Resources */,
 				047A052A1E4995AF00D2CDB5 /* Assets.xcassets in Resources */,
+				04186D2E1E7B888000CC4951 /* MenuHomeViewController.xib in Resources */,
 				047A05281E4995AF00D2CDB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,18 +628,21 @@
 				040EDECE1E6D3F8500EA70A7 /* HighManagerHeaderView.swift in Sources */,
 				047A05251E4995AF00D2CDB5 /* ViewController.swift in Sources */,
 				041142411E79457B00663882 /* FoldViewController.swift in Sources */,
+				04186D351E7BDF2200CC4951 /* MaskTestViewController.swift in Sources */,
 				04F4FEDD1E70F9BA0017937F /* TapAnimationModel.swift in Sources */,
 				04B9EC131E558B010036D561 /* CircleSpreadPresentedViewController.swift in Sources */,
 				040EF00C1E6027C800EC65A6 /* PieChatViewController.swift in Sources */,
 				0411424A1E79534900663882 /* NavWaveView.swift in Sources */,
 				041142481E79532C00663882 /* NavWaveViewController.swift in Sources */,
 				041EE3EE1E54051300593A77 /* GestureUnlockViewController.swift in Sources */,
+				04186D2C1E7B87C400CC4951 /* MenuDetailViewController.swift in Sources */,
 				043D79991E4AB7FE00B80296 /* LoadingIndicatorViewController.swift in Sources */,
 				047A05511E49966A00D2CDB5 /* LaunchScreenViewController.swift in Sources */,
 				04158BB51E6E866D00CF50B8 /* DetailHeaderView.swift in Sources */,
 				040EFA241E6697160057AB52 /* UCHeaderPullAnimationViewController.swift in Sources */,
 				04158BB31E6E833F00CF50B8 /* HighManagerDetailViewController.swift in Sources */,
 				04CC7F861E4D8770002A0958 /* SignViewController.swift in Sources */,
+				04186D281E7B87AB00CC4951 /* MenuHomeViewController.swift in Sources */,
 				040EDEC71E6D34D300EA70A7 /* HighManagerMoneyViewController.swift in Sources */,
 				043481941E6FAFEF000AAB5F /* TableViewTapAnimationController.swift in Sources */,
 				040EFA221E66779D0057AB52 /* EmitterViewController.swift in Sources */,
@@ -598,7 +660,9 @@
 				047AF3181E77F186007E6A0C /* DragerViewController.swift in Sources */,
 				041142431E7945A500663882 /* FoldTableViewCell.swift in Sources */,
 				047AF31E1E7801D6007E6A0C /* LeftViewController.swift in Sources */,
+				04186D2A1E7B87B900CC4951 /* MenuMainViewController.swift in Sources */,
 				040EDECC1E6D355A00EA70A7 /* NavTitleView.swift in Sources */,
+				041FD6BC1E7FAB32004F3B33 /* ScaleLabelViewController.swift in Sources */,
 				0465A3A01E4C4A7400BAB06D /* LoginTextFieldAnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
