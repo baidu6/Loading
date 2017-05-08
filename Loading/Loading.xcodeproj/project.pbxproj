@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0400F79D1EC00B63003FBAA1 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400F79C1EC00B63003FBAA1 /* SearchBarViewController.swift */; };
 		040B377E1E5EAF3E00795190 /* StudyOnLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040B377D1E5EAF3E00795190 /* StudyOnLineViewController.swift */; };
 		040EDEC71E6D34D300EA70A7 /* HighManagerMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EDEC61E6D34D200EA70A7 /* HighManagerMoneyViewController.swift */; };
 		040EDECC1E6D355A00EA70A7 /* NavTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EDECB1E6D355A00EA70A7 /* NavTitleView.swift */; };
@@ -35,11 +36,16 @@
 		041FD6BC1E7FAB32004F3B33 /* ScaleLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FD6BB1E7FAB32004F3B33 /* ScaleLabelViewController.swift */; };
 		043481941E6FAFEF000AAB5F /* TableViewTapAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043481931E6FAFEF000AAB5F /* TableViewTapAnimationController.swift */; };
 		043481971E6FB99E000AAB5F /* TapAnimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043481961E6FB99E000AAB5F /* TapAnimationCell.swift */; };
+		0436BF6C1E88C23F0010794A /* ShinningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436BF6B1E88C23F0010794A /* ShinningViewController.swift */; };
+		043C7CF21E890DB00009C6C2 /* TapCellAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C7CF11E890DB00009C6C2 /* TapCellAnimationViewController.swift */; };
+		043C7CF41E890E2A0009C6C2 /* TapCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C7CF31E890E2A0009C6C2 /* TapCellModel.swift */; };
+		043C7CF61E890E590009C6C2 /* TapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C7CF51E890E590009C6C2 /* TapTableViewCell.swift */; };
 		043D79991E4AB7FE00B80296 /* LoadingIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D79981E4AB7FE00B80296 /* LoadingIndicatorViewController.swift */; };
 		043D79A91E4B0A6900B80296 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D79A81E4B0A6900B80296 /* LoginViewController.swift */; };
 		0448CD121E52EB8900A6C0EE /* ApplauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448CD111E52EB8900A6C0EE /* ApplauseViewController.swift */; };
 		0458E05A1E56D21B001EA20B /* PopPresentViewControoler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E0591E56D21B001EA20B /* PopPresentViewControoler.swift */; };
 		0458E05C1E56D238001EA20B /* PopPresentedViewControoler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E05B1E56D238001EA20B /* PopPresentedViewControoler.swift */; };
+		04645A911E84F2ED000D2B7F /* NavgationImgScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645A901E84F2ED000D2B7F /* NavgationImgScaleViewController.swift */; };
 		0465A3A01E4C4A7400BAB06D /* LoginTextFieldAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465A39F1E4C4A7400BAB06D /* LoginTextFieldAnimationViewController.swift */; };
 		0465A3A21E4C701E00BAB06D /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465A3A11E4C701E00BAB06D /* ShoppingViewController.swift */; };
 		047A05231E4995AF00D2CDB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A05221E4995AF00D2CDB5 /* AppDelegate.swift */; };
@@ -55,6 +61,10 @@
 		047AF31A1E77F2D7007E6A0C /* NavgationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF3191E77F2D7007E6A0C /* NavgationView.swift */; };
 		047AF31C1E77F31B007E6A0C /* NavgationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047AF31B1E77F31B007E6A0C /* NavgationView.xib */; };
 		047AF31E1E7801D6007E6A0C /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF31D1E7801D6007E6A0C /* LeftViewController.swift */; };
+		04A391451E851943000D49C0 /* HeaderViewTapAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A391441E851943000D49C0 /* HeaderViewTapAnimationViewController.swift */; };
+		04A391471E851AC8000D49C0 /* ClassStudentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A391461E851AC8000D49C0 /* ClassStudentsCell.swift */; };
+		04A391491E851B5C000D49C0 /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A391481E851B5C000D49C0 /* ClassModel.swift */; };
+		04A3914B1E851BA5000D49C0 /* ClassHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3914A1E851BA5000D49C0 /* ClassHeaderView.swift */; };
 		04B9EC111E5588E60036D561 /* CircleSpreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9EC101E5588E60036D561 /* CircleSpreadViewController.swift */; };
 		04B9EC131E558B010036D561 /* CircleSpreadPresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9EC121E558B010036D561 /* CircleSpreadPresentedViewController.swift */; };
 		04CC7F861E4D8770002A0958 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC7F851E4D8770002A0958 /* SignViewController.swift */; };
@@ -85,6 +95,7 @@
 
 /* Begin PBXFileReference section */
 		03EB1D7635955D9DEFECB1FB /* Pods-Loading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loading.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Loading/Pods-Loading.debug.xcconfig"; sourceTree = "<group>"; };
+		0400F79C1EC00B63003FBAA1 /* SearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		040B377D1E5EAF3E00795190 /* StudyOnLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyOnLineViewController.swift; sourceTree = "<group>"; };
 		040EDEC61E6D34D200EA70A7 /* HighManagerMoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighManagerMoneyViewController.swift; sourceTree = "<group>"; };
 		040EDECB1E6D355A00EA70A7 /* NavTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTitleView.swift; sourceTree = "<group>"; };
@@ -114,11 +125,16 @@
 		041FD6BB1E7FAB32004F3B33 /* ScaleLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleLabelViewController.swift; sourceTree = "<group>"; };
 		043481931E6FAFEF000AAB5F /* TableViewTapAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewTapAnimationController.swift; sourceTree = "<group>"; };
 		043481961E6FB99E000AAB5F /* TapAnimationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAnimationCell.swift; sourceTree = "<group>"; };
+		0436BF6B1E88C23F0010794A /* ShinningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShinningViewController.swift; sourceTree = "<group>"; };
+		043C7CF11E890DB00009C6C2 /* TapCellAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapCellAnimationViewController.swift; sourceTree = "<group>"; };
+		043C7CF31E890E2A0009C6C2 /* TapCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapCellModel.swift; sourceTree = "<group>"; };
+		043C7CF51E890E590009C6C2 /* TapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapTableViewCell.swift; sourceTree = "<group>"; };
 		043D79981E4AB7FE00B80296 /* LoadingIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorViewController.swift; sourceTree = "<group>"; };
 		043D79A81E4B0A6900B80296 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0448CD111E52EB8900A6C0EE /* ApplauseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplauseViewController.swift; sourceTree = "<group>"; };
 		0458E0591E56D21B001EA20B /* PopPresentViewControoler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopPresentViewControoler.swift; sourceTree = "<group>"; };
 		0458E05B1E56D238001EA20B /* PopPresentedViewControoler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopPresentedViewControoler.swift; sourceTree = "<group>"; };
+		04645A901E84F2ED000D2B7F /* NavgationImgScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavgationImgScaleViewController.swift; sourceTree = "<group>"; };
 		0465A39F1E4C4A7400BAB06D /* LoginTextFieldAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextFieldAnimationViewController.swift; sourceTree = "<group>"; };
 		0465A3A11E4C701E00BAB06D /* ShoppingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		047A051F1E4995AF00D2CDB5 /* Loading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loading.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +156,10 @@
 		047AF3191E77F2D7007E6A0C /* NavgationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavgationView.swift; sourceTree = "<group>"; };
 		047AF31B1E77F31B007E6A0C /* NavgationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavgationView.xib; sourceTree = "<group>"; };
 		047AF31D1E7801D6007E6A0C /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		04A391441E851943000D49C0 /* HeaderViewTapAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewTapAnimationViewController.swift; sourceTree = "<group>"; };
+		04A391461E851AC8000D49C0 /* ClassStudentsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassStudentsCell.swift; sourceTree = "<group>"; };
+		04A391481E851B5C000D49C0 /* ClassModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
+		04A3914A1E851BA5000D49C0 /* ClassHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassHeaderView.swift; sourceTree = "<group>"; };
 		04B9EC101E5588E60036D561 /* CircleSpreadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleSpreadViewController.swift; sourceTree = "<group>"; };
 		04B9EC121E558B010036D561 /* CircleSpreadPresentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleSpreadPresentedViewController.swift; sourceTree = "<group>"; };
 		04CC7F851E4D8770002A0958 /* SignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
@@ -300,6 +320,32 @@
 			name = "TableView点击动画";
 			sourceTree = "<group>";
 		};
+		0436BF6A1E88C2230010794A /* 闪光动画 */ = {
+			isa = PBXGroup;
+			children = (
+				0436BF6B1E88C23F0010794A /* ShinningViewController.swift */,
+			);
+			name = "闪光动画";
+			sourceTree = "<group>";
+		};
+		043C7CF01E890D880009C6C2 /* 点击cell改变高度 */ = {
+			isa = PBXGroup;
+			children = (
+				043C7CF11E890DB00009C6C2 /* TapCellAnimationViewController.swift */,
+				043C7CF31E890E2A0009C6C2 /* TapCellModel.swift */,
+				043C7CF51E890E590009C6C2 /* TapTableViewCell.swift */,
+			);
+			name = "点击cell改变高度";
+			sourceTree = "<group>";
+		};
+		04645A8F1E84F2A6000D2B7F /* 导航头像随着滑动缩放 */ = {
+			isa = PBXGroup;
+			children = (
+				04645A901E84F2ED000D2B7F /* NavgationImgScaleViewController.swift */,
+			);
+			name = "导航头像随着滑动缩放";
+			sourceTree = "<group>";
+		};
 		047A05161E4995AF00D2CDB5 = {
 			isa = PBXGroup;
 			children = (
@@ -325,6 +371,10 @@
 		047A05211E4995AF00D2CDB5 /* Loading */ = {
 			isa = PBXGroup;
 			children = (
+				043C7CF01E890D880009C6C2 /* 点击cell改变高度 */,
+				0436BF6A1E88C2230010794A /* 闪光动画 */,
+				04A391431E8513DB000D49C0 /* tableView的展开缩放动画 */,
+				04645A8F1E84F2A6000D2B7F /* 导航头像随着滑动缩放 */,
 				041FD6BA1E7F786E004F3B33 /* UILabel的缩放动画 */,
 				04186D331E7BDEB900CC4951 /* mask使用，渐变进度条 */,
 				04186D251E7B877400CC4951 /* Menu菜单 */,
@@ -354,6 +404,7 @@
 				040EFA211E66779D0057AB52 /* EmitterViewController.swift */,
 				040EFA231E6697160057AB52 /* UCHeaderPullAnimationViewController.swift */,
 				04F965F51E6D07B500FAD5AA /* CountingViewController.swift */,
+				0400F79C1EC00B63003FBAA1 /* SearchBarViewController.swift */,
 				043481951E6FB883000AAB5F /* TableView点击动画 */,
 				047A05261E4995AF00D2CDB5 /* Main.storyboard */,
 				047A05291E4995AF00D2CDB5 /* Assets.xcassets */,
@@ -407,6 +458,17 @@
 				047AF31B1E77F31B007E6A0C /* NavgationView.xib */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		04A391431E8513DB000D49C0 /* tableView的展开缩放动画 */ = {
+			isa = PBXGroup;
+			children = (
+				04A391441E851943000D49C0 /* HeaderViewTapAnimationViewController.swift */,
+				04A391461E851AC8000D49C0 /* ClassStudentsCell.swift */,
+				04A391481E851B5C000D49C0 /* ClassModel.swift */,
+				04A3914A1E851BA5000D49C0 /* ClassHeaderView.swift */,
+			);
+			name = "tableView的展开缩放动画";
 			sourceTree = "<group>";
 		};
 		7AD0FCDBCA9A82685C7E7DD8 /* Frameworks */ = {
@@ -620,16 +682,22 @@
 			files = (
 				04F965F61E6D07B500FAD5AA /* CountingViewController.swift in Sources */,
 				040B377E1E5EAF3E00795190 /* StudyOnLineViewController.swift in Sources */,
+				043C7CF61E890E590009C6C2 /* TapTableViewCell.swift in Sources */,
 				047AF3161E77CFDF007E6A0C /* BaseDragerViewController.swift in Sources */,
+				04645A911E84F2ED000D2B7F /* NavgationImgScaleViewController.swift in Sources */,
 				0458E05A1E56D21B001EA20B /* PopPresentViewControoler.swift in Sources */,
 				040EFA201E6667CF0057AB52 /* InteractionViewControoler.swift in Sources */,
 				04F4FEDB1E70F0870017937F /* CustomCell.swift in Sources */,
 				0448CD121E52EB8900A6C0EE /* ApplauseViewController.swift in Sources */,
+				0436BF6C1E88C23F0010794A /* ShinningViewController.swift in Sources */,
+				04A391491E851B5C000D49C0 /* ClassModel.swift in Sources */,
 				040EDECE1E6D3F8500EA70A7 /* HighManagerHeaderView.swift in Sources */,
 				047A05251E4995AF00D2CDB5 /* ViewController.swift in Sources */,
 				041142411E79457B00663882 /* FoldViewController.swift in Sources */,
 				04186D351E7BDF2200CC4951 /* MaskTestViewController.swift in Sources */,
 				04F4FEDD1E70F9BA0017937F /* TapAnimationModel.swift in Sources */,
+				04A391451E851943000D49C0 /* HeaderViewTapAnimationViewController.swift in Sources */,
+				043C7CF21E890DB00009C6C2 /* TapCellAnimationViewController.swift in Sources */,
 				04B9EC131E558B010036D561 /* CircleSpreadPresentedViewController.swift in Sources */,
 				040EF00C1E6027C800EC65A6 /* PieChatViewController.swift in Sources */,
 				0411424A1E79534900663882 /* NavWaveView.swift in Sources */,
@@ -652,14 +720,18 @@
 				0465A3A21E4C701E00BAB06D /* ShoppingViewController.swift in Sources */,
 				04B9EC111E5588E60036D561 /* CircleSpreadViewController.swift in Sources */,
 				043481971E6FB99E000AAB5F /* TapAnimationCell.swift in Sources */,
+				043C7CF41E890E2A0009C6C2 /* TapCellModel.swift in Sources */,
 				043D79A91E4B0A6900B80296 /* LoginViewController.swift in Sources */,
+				0400F79D1EC00B63003FBAA1 /* SearchBarViewController.swift in Sources */,
 				0458E05C1E56D238001EA20B /* PopPresentedViewControoler.swift in Sources */,
 				040EDED01E6D429A00EA70A7 /* HighManagerTableViewCell.swift in Sources */,
 				047A05231E4995AF00D2CDB5 /* AppDelegate.swift in Sources */,
 				04EE06E41E6D5C5E003BAA70 /* UIColor+Extension.swift in Sources */,
+				04A391471E851AC8000D49C0 /* ClassStudentsCell.swift in Sources */,
 				047AF3181E77F186007E6A0C /* DragerViewController.swift in Sources */,
 				041142431E7945A500663882 /* FoldTableViewCell.swift in Sources */,
 				047AF31E1E7801D6007E6A0C /* LeftViewController.swift in Sources */,
+				04A3914B1E851BA5000D49C0 /* ClassHeaderView.swift in Sources */,
 				04186D2A1E7B87B900CC4951 /* MenuMainViewController.swift in Sources */,
 				040EDECC1E6D355A00EA70A7 /* NavTitleView.swift in Sources */,
 				041FD6BC1E7FAB32004F3B33 /* ScaleLabelViewController.swift in Sources */,
