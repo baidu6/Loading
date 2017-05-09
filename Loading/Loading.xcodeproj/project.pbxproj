@@ -61,6 +61,7 @@
 		047AF31A1E77F2D7007E6A0C /* NavgationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF3191E77F2D7007E6A0C /* NavgationView.swift */; };
 		047AF31C1E77F31B007E6A0C /* NavgationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047AF31B1E77F31B007E6A0C /* NavgationView.xib */; };
 		047AF31E1E7801D6007E6A0C /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF31D1E7801D6007E6A0C /* LeftViewController.swift */; };
+		048CEBF61EC043FD00DF21AF /* YHAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CEBF51EC043FD00DF21AF /* YHAlertViewController.swift */; };
 		04A391451E851943000D49C0 /* HeaderViewTapAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A391441E851943000D49C0 /* HeaderViewTapAnimationViewController.swift */; };
 		04A391471E851AC8000D49C0 /* ClassStudentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A391461E851AC8000D49C0 /* ClassStudentsCell.swift */; };
 		04A391491E851B5C000D49C0 /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A391481E851B5C000D49C0 /* ClassModel.swift */; };
@@ -156,6 +157,7 @@
 		047AF3191E77F2D7007E6A0C /* NavgationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavgationView.swift; sourceTree = "<group>"; };
 		047AF31B1E77F31B007E6A0C /* NavgationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavgationView.xib; sourceTree = "<group>"; };
 		047AF31D1E7801D6007E6A0C /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		048CEBF51EC043FD00DF21AF /* YHAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHAlertViewController.swift; sourceTree = "<group>"; };
 		04A391441E851943000D49C0 /* HeaderViewTapAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewTapAnimationViewController.swift; sourceTree = "<group>"; };
 		04A391461E851AC8000D49C0 /* ClassStudentsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassStudentsCell.swift; sourceTree = "<group>"; };
 		04A391481E851B5C000D49C0 /* ClassModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 				040EDEC51E6D34B200EA70A7 /* 高端理财 */,
 				047A05221E4995AF00D2CDB5 /* AppDelegate.swift */,
 				047A05241E4995AF00D2CDB5 /* ViewController.swift */,
+				048CEBF51EC043FD00DF21AF /* YHAlertViewController.swift */,
 				047A05501E49966A00D2CDB5 /* LaunchScreenViewController.swift */,
 				043D79981E4AB7FE00B80296 /* LoadingIndicatorViewController.swift */,
 				043D79A81E4B0A6900B80296 /* LoginViewController.swift */,
@@ -726,6 +729,7 @@
 				0458E05C1E56D238001EA20B /* PopPresentedViewControoler.swift in Sources */,
 				040EDED01E6D429A00EA70A7 /* HighManagerTableViewCell.swift in Sources */,
 				047A05231E4995AF00D2CDB5 /* AppDelegate.swift in Sources */,
+				048CEBF61EC043FD00DF21AF /* YHAlertViewController.swift in Sources */,
 				04EE06E41E6D5C5E003BAA70 /* UIColor+Extension.swift in Sources */,
 				04A391471E851AC8000D49C0 /* ClassStudentsCell.swift in Sources */,
 				047AF3181E77F186007E6A0C /* DragerViewController.swift in Sources */,
