@@ -96,7 +96,7 @@ extension TapCellAnimationViewController:UITableViewDelegate,UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let model = self.datasArray[indexPath.row]
         model.isSelected = !model.isSelected
-        tableView.reloadRows(at: [indexPath], with: UITableViewRowAnimation.fade)
+        tableView.reloadRows(at: [indexPath], with: UITableViewRowAnimation.bottom)
     }
     
 }

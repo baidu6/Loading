@@ -34,6 +34,7 @@
 		04186D351E7BDF2200CC4951 /* MaskTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04186D341E7BDF2200CC4951 /* MaskTestViewController.swift */; };
 		041EE3EE1E54051300593A77 /* GestureUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EE3ED1E54051300593A77 /* GestureUnlockViewController.swift */; };
 		041FD6BC1E7FAB32004F3B33 /* ScaleLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FD6BB1E7FAB32004F3B33 /* ScaleLabelViewController.swift */; };
+		042481281EC2B35600B1F6C7 /* BasicLoadingAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042481271EC2B35600B1F6C7 /* BasicLoadingAnimationViewController.swift */; };
 		043481941E6FAFEF000AAB5F /* TableViewTapAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043481931E6FAFEF000AAB5F /* TableViewTapAnimationController.swift */; };
 		043481971E6FB99E000AAB5F /* TapAnimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043481961E6FB99E000AAB5F /* TapAnimationCell.swift */; };
 		0436BF6C1E88C23F0010794A /* ShinningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436BF6B1E88C23F0010794A /* ShinningViewController.swift */; };
@@ -124,6 +125,7 @@
 		04186D341E7BDF2200CC4951 /* MaskTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskTestViewController.swift; sourceTree = "<group>"; };
 		041EE3ED1E54051300593A77 /* GestureUnlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureUnlockViewController.swift; sourceTree = "<group>"; };
 		041FD6BB1E7FAB32004F3B33 /* ScaleLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleLabelViewController.swift; sourceTree = "<group>"; };
+		042481271EC2B35600B1F6C7 /* BasicLoadingAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicLoadingAnimationViewController.swift; sourceTree = "<group>"; };
 		043481931E6FAFEF000AAB5F /* TableViewTapAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewTapAnimationController.swift; sourceTree = "<group>"; };
 		043481961E6FB99E000AAB5F /* TapAnimationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAnimationCell.swift; sourceTree = "<group>"; };
 		0436BF6B1E88C23F0010794A /* ShinningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShinningViewController.swift; sourceTree = "<group>"; };
@@ -388,6 +390,7 @@
 				047A05221E4995AF00D2CDB5 /* AppDelegate.swift */,
 				047A05241E4995AF00D2CDB5 /* ViewController.swift */,
 				048CEBF51EC043FD00DF21AF /* YHAlertViewController.swift */,
+				042481271EC2B35600B1F6C7 /* BasicLoadingAnimationViewController.swift */,
 				047A05501E49966A00D2CDB5 /* LaunchScreenViewController.swift */,
 				043D79981E4AB7FE00B80296 /* LoadingIndicatorViewController.swift */,
 				043D79A81E4B0A6900B80296 /* LoginViewController.swift */,
@@ -698,6 +701,7 @@
 				047A05251E4995AF00D2CDB5 /* ViewController.swift in Sources */,
 				041142411E79457B00663882 /* FoldViewController.swift in Sources */,
 				04186D351E7BDF2200CC4951 /* MaskTestViewController.swift in Sources */,
+				042481281EC2B35600B1F6C7 /* BasicLoadingAnimationViewController.swift in Sources */,
 				04F4FEDD1E70F9BA0017937F /* TapAnimationModel.swift in Sources */,
 				04A391451E851943000D49C0 /* HeaderViewTapAnimationViewController.swift in Sources */,
 				043C7CF21E890DB00009C6C2 /* TapCellAnimationViewController.swift in Sources */,
