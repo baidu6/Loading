@@ -22,7 +22,6 @@
 		041142431E7945A500663882 /* FoldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041142421E7945A500663882 /* FoldTableViewCell.swift */; };
 		041142481E79532C00663882 /* NavWaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041142471E79532C00663882 /* NavWaveViewController.swift */; };
 		0411424A1E79534900663882 /* NavWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041142491E79534900663882 /* NavWaveView.swift */; };
-		0412D9881ED818C200397B3F /* StrechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D9871ED818C200397B3F /* StrechViewController.swift */; };
 		04158BB31E6E833F00CF50B8 /* HighManagerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04158BB21E6E833F00CF50B8 /* HighManagerDetailViewController.swift */; };
 		04158BB51E6E866D00CF50B8 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04158BB41E6E866D00CF50B8 /* DetailHeaderView.swift */; };
 		04158BB71E6E87F700CF50B8 /* DetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04158BB61E6E87F700CF50B8 /* DetailHeaderView.xib */; };
@@ -114,7 +113,6 @@
 		041142421E7945A500663882 /* FoldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldTableViewCell.swift; sourceTree = "<group>"; };
 		041142471E79532C00663882 /* NavWaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavWaveViewController.swift; sourceTree = "<group>"; };
 		041142491E79534900663882 /* NavWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavWaveView.swift; sourceTree = "<group>"; };
-		0412D9871ED818C200397B3F /* StrechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrechViewController.swift; sourceTree = "<group>"; };
 		04158BB21E6E833F00CF50B8 /* HighManagerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighManagerDetailViewController.swift; sourceTree = "<group>"; };
 		04158BB41E6E866D00CF50B8 /* DetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 		04158BB61E6E87F700CF50B8 /* DetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailHeaderView.xib; sourceTree = "<group>"; };
@@ -396,7 +394,6 @@
 				047A05501E49966A00D2CDB5 /* LaunchScreenViewController.swift */,
 				043D79981E4AB7FE00B80296 /* LoadingIndicatorViewController.swift */,
 				043D79A81E4B0A6900B80296 /* LoginViewController.swift */,
-				0412D9871ED818C200397B3F /* StrechViewController.swift */,
 				0465A39F1E4C4A7400BAB06D /* LoginTextFieldAnimationViewController.swift */,
 				0465A3A11E4C701E00BAB06D /* ShoppingViewController.swift */,
 				04CC7F851E4D8770002A0958 /* SignViewController.swift */,
@@ -692,7 +689,6 @@
 				04F965F61E6D07B500FAD5AA /* CountingViewController.swift in Sources */,
 				040B377E1E5EAF3E00795190 /* StudyOnLineViewController.swift in Sources */,
 				043C7CF61E890E590009C6C2 /* TapTableViewCell.swift in Sources */,
-				0412D9881ED818C200397B3F /* StrechViewController.swift in Sources */,
 				047AF3161E77CFDF007E6A0C /* BaseDragerViewController.swift in Sources */,
 				04645A911E84F2ED000D2B7F /* NavgationImgScaleViewController.swift in Sources */,
 				0458E05A1E56D21B001EA20B /* PopPresentViewControoler.swift in Sources */,
