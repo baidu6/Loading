@@ -53,29 +53,32 @@ class ClassHeaderView: UIView {
         self.addSubview(bottomLine)
         self.addSubview(titleLabel)
         self.addSubview(iconImageV)
-        
-        topLine.mas_makeConstraints { (make) in
-            _ = make?.top.mas_equalTo()(self.mas_top)?.offset()(2)
-            _ = make?.left.mas_equalTo()(self.mas_left)
-            _ = make?.right.mas_equalTo()(self.mas_right)
-            _ = make?.height.mas_equalTo()(0.5)
-        }
-        button.mas_makeConstraints { (make) in
-            _ = make?.top.mas_equalTo()(self.topLine.mas_bottom)
-            _ = make?.left.mas_equalTo()(self.mas_left)
-            _ = make?.right.mas_equalTo()(self.mas_right)
-            _ = make?.height.mas_equalTo()(26)
-        }
-        bottomLine.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.mas_left)
-            _ = make?.right.mas_equalTo()(self.mas_right)
-            _ = make?.height.mas_equalTo()(0.6)
-            _ = make?.top.mas_equalTo()(self.button.mas_bottom)
+    
+       
+        topLine.snp.makeConstraints { (make) in
+            make.top.equalTo(self).offset(2)
+            make.left.equalTo(self)
+            make.right.equalTo(self)
+            make.height.equalTo(0.5)
         }
         
-        titleLabel.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.mas_left)?.offset()(10)
-            _ = make?.centerY.mas_equalTo()(self.mas_centerY)
+        button.snp.makeConstraints { (make) in
+            make.top.equalTo(self.topLine.snp.bottom)
+            make.left.equalTo(self)
+            make.right.equalTo(self)
+            make.height.equalTo(26)
+        }
+        
+        bottomLine.snp.makeConstraints { (make) in
+            make.left.equalTo(self)
+            make.right.equalTo(self)
+            make.height.equalTo(0.6)
+            make.top.equalTo(self.button.snp.bottom)
+        }
+        
+        titleLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self).offset(10)
+            make.centerY.equalTo(self)
         }
     }
     

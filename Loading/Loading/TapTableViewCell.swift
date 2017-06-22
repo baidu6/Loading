@@ -5,7 +5,7 @@
 //  Created by mac on 2017/3/27.
 //  Copyright © 2017年 czj. All rights reserved.
 //
-
+import SnapKit
 import UIKit
 class TapTableViewCell: UITableViewCell {
     
@@ -34,12 +34,13 @@ class TapTableViewCell: UITableViewCell {
     
     func setupUI() -> Void {
         contentView.addSubview(contentLabel)
-        contentLabel.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.mas_left)?.offset()(10)
-            _ = make?.right.mas_equalTo()(self.mas_right)?.offset()(-10)
-            _ = make?.top.mas_equalTo()(self.mas_top)
-            _ = make?.height.mas_equalTo()(self.mas_height)
+        contentLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.snp.left).offset(10)
+            make.right.equalTo(self.snp.right).offset(-10)
+            make.top.equalTo(self.snp.top)
+            make.height.equalTo(self.snp.height)
         }
+    
 
     }
     

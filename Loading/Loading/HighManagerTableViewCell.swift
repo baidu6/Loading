@@ -101,16 +101,17 @@ class HighManagerTableViewCell: UITableViewCell {
         
         let leftMargin:CGFloat = 16
         let topMargin:CGFloat = 20
-        
-        titleLabel.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.mas_left)?.offset()(leftMargin)
-            _ = make?.top.mas_equalTo()(self.mas_top)?.offset()(topMargin)
+       
+        titleLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self).offset(leftMargin)
+            make.top.equalTo(self).offset(topMargin)
         }
-        centerDetailV.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.mas_left)
-            _ = make?.top.mas_equalTo()(self.titleLabel.mas_bottom)?.offset()(25)
-            _ = make?.right.mas_equalTo()(self.mas_right)
-            _ = make?.height.mas_equalTo()(55)
+        
+        centerDetailV.snp.makeConstraints { (make) in
+            make.left.equalTo(self)
+            make.top.equalTo(self.titleLabel.snp.bottom).offset(25)
+            make.right.equalTo(self)
+            make.height.equalTo(55)
         }
         
         centerDetailV.backgroundColor = UIColor.red
@@ -128,38 +129,44 @@ class HighManagerTableViewCell: UITableViewCell {
         centerDetailV.addSubview(timeLimitLabel)
         centerDetailV.addSubview(leftAmountLabel)
         centerDetailV.addSubview(purchaseBtn)
+       
+        descLabel.snp.makeConstraints { (make) in
+            make.bottom.equalTo(self.centerDetailV.snp.bottom)
+            make.left.equalTo(self.centerDetailV.snp.left).offset(leftMargin)
+        }
         
-        descLabel.mas_makeConstraints { (make) in
-            _ = make?.bottom.mas_equalTo()(self.centerDetailV.mas_bottom)
-            _ = make?.left.mas_equalTo()(self.centerDetailV.mas_left)?.offset()(leftMargin)
+        percentLabel.snp.makeConstraints { (make) in
+            make.centerX.equalTo(self.descLabel.snp.centerX)
+            make.bottom.equalTo(self.descLabel.snp.top)
         }
-        percentLabel.mas_makeConstraints { (make) in
-            _ = make?.centerX.mas_equalTo()(self.descLabel.mas_centerX)
-            _ = make?.bottom.mas_equalTo()(self.descLabel.mas_top)
+        
+        seperatorV.snp.makeConstraints { (make) in
+            make.left.equalTo(self.centerDetailV.snp.left).offset(left)
+            make.top.equalTo(self.centerDetailV.snp.top)
+            make.bottom.equalTo(self.centerDetailV.snp.bottom)
+            make.width.equalTo(1)
         }
-        seperatorV.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.centerDetailV.mas_left)?.offset()(left)
-            _ = make?.top.mas_equalTo()(self.centerDetailV.mas_top)
-            _ = make?.bottom.mas_equalTo()(self.centerDetailV.mas_bottom)
-            _ = make?.width.mas_equalTo()(1)
+        
+        startingLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.seperatorV.snp.right).offset(5)
+            make.top.equalTo(self.seperatorV.snp.top)
         }
-        startingLabel.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.seperatorV.mas_right)?.offset()(5)
-            _ = make?.top.mas_equalTo()(self.seperatorV.mas_top)
+        
+        timeLimitLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.startingLabel.snp.left)
+            make.centerY.equalTo(self.centerDetailV.snp.centerY)
         }
-        timeLimitLabel.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.startingLabel.mas_left)
-            _ = make?.centerY.mas_equalTo()(self.centerDetailV.mas_centerY)
+        
+        leftAmountLabel.snp.makeConstraints { (make) in
+            make.bottom.equalTo(self.centerDetailV.snp.bottom)
+            make.left.equalTo(self.startingLabel.snp.left)
         }
-        leftAmountLabel.mas_makeConstraints { (make) in
-            _ = make?.bottom.mas_equalTo()(self.centerDetailV.mas_bottom)
-            _ = make?.left.mas_equalTo()(self.startingLabel.mas_left)
-        }
-        purchaseBtn.mas_makeConstraints { (make) in
-            _ = make?.right.mas_equalTo()(self.centerDetailV.mas_right)?.offset()(-leftMargin)
-            _ = make?.top.mas_equalTo()(self.centerDetailV.mas_top)
-            _ = make?.height.mas_equalTo()(30)
-            _ = make?.width.mas_equalTo()(80)
+        
+        purchaseBtn.snp.makeConstraints { (make) in
+            make.right.equalTo(self.centerDetailV.snp.right).offset(-leftMargin)
+            make.top.equalTo(self.centerDetailV.snp.top)
+            make.height.equalTo(30)
+            make.width.equalTo(80)
         }
     }
 }

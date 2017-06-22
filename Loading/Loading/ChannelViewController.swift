@@ -222,16 +222,18 @@ class ChannelCollectionHeaderView:UICollectionReusableView{
         self.addSubview(button)
         
         self.backgroundColor = UIColor.lightGray.withAlphaComponent(0.3)
+       
         
-        titleLabel.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.mas_left)?.offset()(20)
-            _ = make?.centerY.mas_equalTo()(self.mas_centerY)
+        titleLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.snp.left).offset(20)
+            make.centerY.equalTo(self.snp.centerY)
         }
-        button.mas_makeConstraints { (make) in
-            _ = make?.right.mas_equalTo()(self.mas_right)?.offset()(-20)
-            _ = make?.centerY.mas_equalTo()(self.mas_centerY)
-            _ = make?.width.mas_equalTo()(50)
-            _ = make?.height.mas_equalTo()(30)
+        
+        button.snp.makeConstraints { (make) in
+            make.right.equalTo(self.snp.right).offset(-20)
+            make.centerY.equalTo(self)
+            make.width.equalTo(50)
+            make.height.equalTo(30)
         }
     }
   
@@ -277,18 +279,20 @@ class ChannelCollectionViewCell:UICollectionViewCell{
         contentView.addSubview(label)
         contentView.addSubview(closeImageV)
         contentView.backgroundColor = UIColor.lightGray.withAlphaComponent(0.3)
+       
         
-        label.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.contentView.mas_left)
-            _ = make?.right.mas_equalTo()(self.contentView.mas_right)
-            _ = make?.top.mas_equalTo()(self.contentView.mas_top)
-            _ = make?.bottom.mas_equalTo()(self.contentView.mas_bottom)
+        label.snp.makeConstraints { (make) in
+            make.left.equalTo(self.contentView.snp.left)
+            make.right.equalTo(self.contentView.snp.right)
+            make.top.equalTo(self.contentView.snp.top)
+            make.bottom.equalTo(self.contentView.snp.bottom)
         }
-        closeImageV.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.contentView.mas_left)
-            _ = make?.top.mas_equalTo()(self.contentView.mas_top)
-            _ = make?.width.mas_equalTo()(10)
-            _ = make?.height.mas_equalTo()(10)
+        
+        closeImageV.snp.makeConstraints { (make) in
+            make.left.equalTo(self.contentView.snp.left)
+            make.topMargin.equalTo(self.contentView.snp.top)
+            make.height.equalTo(10)
+            make.width.equalTo(10)
         }
     }
     

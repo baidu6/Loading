@@ -72,44 +72,50 @@ class HighManagerDetailViewController: UIViewController {
     func setupUI() -> Void {
         view.addSubview(scrollView)
         view.addSubview(purchaseButton)
-        scrollView.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.view.mas_left)
-            _ = make?.top.mas_equalTo()(self.view.mas_top)
-            _ = make?.width.mas_equalTo()(KWidth)
-            _ = make?.height.mas_equalTo()(KHeight - 50)
+    
+        
+        scrollView.snp.makeConstraints { (make) in
+            make.left.equalTo(self.view.snp.left)
+            make.top.equalTo(self.view.snp.top)
+            make.width.equalTo(KWidth)
+            make.height.equalTo(KHeight - 50)
         }
-        purchaseButton.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.view.mas_left)?.offset()(16)
-            _ = make?.right.mas_equalTo()(self.view.mas_right)?.offset()(-16)
-            _ = make?.bottom.mas_equalTo()(self.view.mas_bottom)?.offset()(-10)
-            _ = make?.height.mas_equalTo()(30)
+        
+        purchaseButton.snp.makeConstraints { (make) in
+            make.left.equalTo(self.view.snp.left).offset(16)
+            make.right.equalTo(self.view.snp.right).offset(-16)
+            make.bottom.equalTo(self.view.snp.bottom).offset(-10)
+            make.height.equalTo(30)
         }
         
         scrollView.addSubview(headerView)
         scrollView.addSubview(detailView)
         
         //添加投影
-//        headerView.layer.shadowColor = UIColor.black.cgColor
-//        headerView.layer.shadowOffset = CGSize(width: 0, height: 5)
-//        headerView.layer.shadowRadius = 10
-//        headerView.layer.shadowOpacity = 0.3
+        //        headerView.layer.shadowColor = UIColor.black.cgColor
+        //        headerView.layer.shadowOffset = CGSize(width: 0, height: 5)
+        //        headerView.layer.shadowRadius = 10
+        //        headerView.layer.shadowOpacity = 0.3
         
-        headerView.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.scrollView.mas_left)
-            _ = make?.width.mas_equalTo()(KWidth)
-            _ = make?.top.mas_equalTo()(self.scrollView.mas_top)
-            _ = make?.height.mas_equalTo()(230)
+        
+        
+        headerView.snp.makeConstraints { (make) in
+            make.left.equalTo(self.scrollView.snp.left)
+            make.width.equalTo(KWidth)
+            make.top.equalTo(self.scrollView.snp.top)
+            make.height.equalTo(230)
         }
-   
-        detailView.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.scrollView.mas_left)
-            _ = make?.width.mas_equalTo()(KWidth)
-            _ = make?.top.mas_equalTo()(self.headerView.mas_bottom)
-            _ = make?.bottom.mas_equalTo()(self.scrollView.mas_bottom)
+        
+        detailView.snp.makeConstraints { (make) in
+            make.left.equalTo(self.scrollView.snp.left)
+            make.width.equalTo(KWidth)
+            make.top.equalTo(self.headerView.snp.bottom)
+            make.bottom.equalTo(self.scrollView.snp.bottom)
         }
+        
         setupDetailView()
     }
-  
+    
     //MARK:产品介绍的View
     func setupDetailView() -> Void {
         
@@ -128,23 +134,25 @@ class HighManagerDetailViewController: UIViewController {
         detailView.addSubview(seperatorV)
         detailView.addSubview(descLabel)
         
-        titleLabel.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.detailView.mas_left)?.offset()(50)
-            _ = make?.top.mas_equalTo()(self.detailView.mas_top)
-            _ = make?.right.mas_equalTo()(self.detailView.mas_right)
-            _ = make?.height.mas_equalTo()(40)
+        titleLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.detailView.snp.left).offset(50)
+            make.top.equalTo(self.detailView.snp.top)
+            make.right.equalTo(self.detailView.snp.right)
+            make.height.equalTo(40)
         }
-        seperatorV.mas_makeConstraints { (make) in
-            _ = make?.top.mas_equalTo()(titleLabel.mas_bottom)
-            _ = make?.left.mas_equalTo()(self.detailView.mas_left)
-            _ = make?.right.mas_equalTo()(self.detailView.mas_right)
-            _ = make?.height.mas_equalTo()(1)
+        
+        seperatorV.snp.makeConstraints { (make) in
+            make.top.equalTo(titleLabel.snp.bottom)
+            make.left.equalTo(self.detailView.snp.left)
+            make.right.equalTo(self.detailView.snp.right)
+            make.height.equalTo(1)
         }
-        descLabel.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.detailView.mas_left)?.offset()(30)
-            _ = make?.top.mas_equalTo()(seperatorV.mas_bottom)?.offset()(20)
-            _ = make?.right.mas_equalTo()(self.detailView.mas_right)?.offset()(-30)
-            _ = make?.bottom.mas_equalTo()(self.detailView.mas_bottom)
+        
+        descLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.detailView.snp.left).offset(30)
+            make.top.equalTo(seperatorV.snp.bottom).offset(20)
+            make.right.equalTo(self.detailView.snp.right).offset(-30)
+            make.bottom.equalTo(self.detailView.snp.bottom)
         }
     }
     

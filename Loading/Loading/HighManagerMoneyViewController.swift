@@ -50,11 +50,12 @@ class HighManagerMoneyViewController: UIViewController {
     
     func setupFooterLabel() -> Void {
         view.addSubview(footerLabel)
-        footerLabel.mas_makeConstraints { (make) in
-            _ = make?.left.mas_equalTo()(self.view.mas_left)
-            _ = make?.right.mas_equalTo()(self.view.mas_right)
-            _ = make?.bottom.mas_equalTo()(self.view.mas_bottom)
-            _ = make?.height.mas_equalTo()(30)
+     
+        footerLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.view)
+            make.right.equalTo(self.view)
+            make.bottom.equalTo(self.view)
+            make.height.equalTo(30)
         }
     }
 }

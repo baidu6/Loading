@@ -260,18 +260,22 @@ extension ViewController:CAAnimationDelegate{
          settlingDuration：结算时间（根据动画参数估算弹簧开始运动到停止的时间，动画设置的时间最好根据此时间来设置）
          */
         
-        let springAni = CASpringAnimation(keyPath: "transform.scale")
-        springAni.mass = 10
-        springAni.stiffness = 5000
-        springAni.damping = 100
-        springAni.autoreverses = false
-        springAni.initialVelocity = 5
-        springAni.duration = springAni.settlingDuration
-        springAni.toValue = NSNumber(value: 1.5)
-        springAni.isRemovedOnCompletion = true
-        springAni.fillMode = kCAFillModeForwards
-        springAni.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
-        self.temperView.layer.add(springAni, forKey: "springAnimation")
+        if #available(iOS 9.0, *) {
+            let springAni = CASpringAnimation(keyPath: "transform.scale")
+            springAni.mass = 10
+            springAni.stiffness = 5000
+            springAni.damping = 100
+            springAni.autoreverses = false
+            springAni.initialVelocity = 5
+            springAni.duration = springAni.settlingDuration
+            springAni.toValue = NSNumber(value: 1.5)
+            springAni.isRemovedOnCompletion = true
+            springAni.fillMode = kCAFillModeForwards
+            springAni.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+            self.temperView.layer.add(springAni, forKey: "springAnimation")
+        } else {
+            // Fallback on earlier versions
+        }
     }
     
     //MARK:转场动画

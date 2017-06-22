@@ -1,12 +1,20 @@
 PODS:
-  - Masonry (1.0.1)
+  - Masonry (1.0.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SnapKit (3.2.0)
 
 DEPENDENCIES:
   - Masonry
+  - SDWebImage
+  - SnapKit
 
 SPEC CHECKSUMS:
-  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: 7ad1a120094a290fe221a53cf54faa64b4a2aa37
+PODFILE CHECKSUM: 8c95cc034f1ce1f62324236c58dd67844e03e899
 
 COCOAPODS: 1.1.1

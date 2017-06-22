@@ -22,6 +22,7 @@
 		041142431E7945A500663882 /* FoldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041142421E7945A500663882 /* FoldTableViewCell.swift */; };
 		041142481E79532C00663882 /* NavWaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041142471E79532C00663882 /* NavWaveViewController.swift */; };
 		0411424A1E79534900663882 /* NavWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041142491E79534900663882 /* NavWaveView.swift */; };
+		0412D9881ED818C200397B3F /* StrechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D9871ED818C200397B3F /* StrechViewController.swift */; };
 		04158BB31E6E833F00CF50B8 /* HighManagerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04158BB21E6E833F00CF50B8 /* HighManagerDetailViewController.swift */; };
 		04158BB51E6E866D00CF50B8 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04158BB41E6E866D00CF50B8 /* DetailHeaderView.swift */; };
 		04158BB71E6E87F700CF50B8 /* DetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04158BB61E6E87F700CF50B8 /* DetailHeaderView.xib */; };
@@ -63,6 +64,7 @@
 		047AF31C1E77F31B007E6A0C /* NavgationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047AF31B1E77F31B007E6A0C /* NavgationView.xib */; };
 		047AF31E1E7801D6007E6A0C /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF31D1E7801D6007E6A0C /* LeftViewController.swift */; };
 		048CEBF61EC043FD00DF21AF /* YHAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CEBF51EC043FD00DF21AF /* YHAlertViewController.swift */; };
+		049F6B151EF8B0830080EE7A /* ADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F6B141EF8B0830080EE7A /* ADViewController.swift */; };
 		04A391451E851943000D49C0 /* HeaderViewTapAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A391441E851943000D49C0 /* HeaderViewTapAnimationViewController.swift */; };
 		04A391471E851AC8000D49C0 /* ClassStudentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A391461E851AC8000D49C0 /* ClassStudentsCell.swift */; };
 		04A391491E851B5C000D49C0 /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A391481E851B5C000D49C0 /* ClassModel.swift */; };
@@ -75,7 +77,7 @@
 		04F4FEDB1E70F0870017937F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4FEDA1E70F0860017937F /* CustomCell.swift */; };
 		04F4FEDD1E70F9BA0017937F /* TapAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4FEDC1E70F9BA0017937F /* TapAnimationModel.swift */; };
 		04F965F61E6D07B500FAD5AA /* CountingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F965F51E6D07B500FAD5AA /* CountingViewController.swift */; };
-		DBF1AFF47DCD00232093EA1B /* libPods-Loading.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9E602A96F04D74678DA3B9 /* libPods-Loading.a */; };
+		4822A3B085C29C8ED2A3F5E5 /* Pods_Loading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B057558D4F19F539C1289A1 /* Pods_Loading.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +105,6 @@
 		040EDECB1E6D355A00EA70A7 /* NavTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTitleView.swift; sourceTree = "<group>"; };
 		040EDECD1E6D3F8500EA70A7 /* HighManagerHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighManagerHeaderView.swift; sourceTree = "<group>"; };
 		040EDECF1E6D429A00EA70A7 /* HighManagerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighManagerTableViewCell.swift; sourceTree = "<group>"; };
-		040EDED31E6D4FF500EA70A7 /* Loading-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Loading-Bridging-Header.h"; sourceTree = "<group>"; };
 		040EF00B1E6027C800EC65A6 /* PieChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChatViewController.swift; sourceTree = "<group>"; };
 		040EFA1F1E6667CF0057AB52 /* InteractionViewControoler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractionViewControoler.swift; sourceTree = "<group>"; };
 		040EFA211E66779D0057AB52 /* EmitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +114,7 @@
 		041142421E7945A500663882 /* FoldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldTableViewCell.swift; sourceTree = "<group>"; };
 		041142471E79532C00663882 /* NavWaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavWaveViewController.swift; sourceTree = "<group>"; };
 		041142491E79534900663882 /* NavWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavWaveView.swift; sourceTree = "<group>"; };
+		0412D9871ED818C200397B3F /* StrechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrechViewController.swift; sourceTree = "<group>"; };
 		04158BB21E6E833F00CF50B8 /* HighManagerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighManagerDetailViewController.swift; sourceTree = "<group>"; };
 		04158BB41E6E866D00CF50B8 /* DetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 		04158BB61E6E87F700CF50B8 /* DetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailHeaderView.xib; sourceTree = "<group>"; };
@@ -160,6 +162,8 @@
 		047AF31B1E77F31B007E6A0C /* NavgationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavgationView.xib; sourceTree = "<group>"; };
 		047AF31D1E7801D6007E6A0C /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		048CEBF51EC043FD00DF21AF /* YHAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHAlertViewController.swift; sourceTree = "<group>"; };
+		049F6B141EF8B0830080EE7A /* ADViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADViewController.swift; sourceTree = "<group>"; };
+		049F6B1D1EF8CAFD0080EE7A /* Loading_Bridging_Header_h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loading_Bridging_Header_h.h; sourceTree = "<group>"; };
 		04A391441E851943000D49C0 /* HeaderViewTapAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewTapAnimationViewController.swift; sourceTree = "<group>"; };
 		04A391461E851AC8000D49C0 /* ClassStudentsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassStudentsCell.swift; sourceTree = "<group>"; };
 		04A391481E851B5C000D49C0 /* ClassModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
@@ -173,7 +177,7 @@
 		04F4FEDC1E70F9BA0017937F /* TapAnimationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAnimationModel.swift; sourceTree = "<group>"; };
 		04F965F51E6D07B500FAD5AA /* CountingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingViewController.swift; sourceTree = "<group>"; };
 		77ED8C83FF1CAB4979811AAC /* Pods-Loading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loading.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loading/Pods-Loading.release.xcconfig"; sourceTree = "<group>"; };
-		FA9E602A96F04D74678DA3B9 /* libPods-Loading.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Loading.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B057558D4F19F539C1289A1 /* Pods_Loading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,7 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBF1AFF47DCD00232093EA1B /* libPods-Loading.a in Frameworks */,
+				4822A3B085C29C8ED2A3F5E5 /* Pods_Loading.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +223,6 @@
 				040EDECF1E6D429A00EA70A7 /* HighManagerTableViewCell.swift */,
 				04158BB41E6E866D00CF50B8 /* DetailHeaderView.swift */,
 				04158BB61E6E87F700CF50B8 /* DetailHeaderView.xib */,
-				040EDED31E6D4FF500EA70A7 /* Loading-Bridging-Header.h */,
 				04EE06E31E6D5C5E003BAA70 /* UIColor+Extension.swift */,
 			);
 			name = View;
@@ -388,12 +391,14 @@
 				047AF3121E77CF92007E6A0C /* 侧滑 */,
 				040EDEC51E6D34B200EA70A7 /* 高端理财 */,
 				047A05221E4995AF00D2CDB5 /* AppDelegate.swift */,
+				049F6B141EF8B0830080EE7A /* ADViewController.swift */,
 				047A05241E4995AF00D2CDB5 /* ViewController.swift */,
 				048CEBF51EC043FD00DF21AF /* YHAlertViewController.swift */,
 				042481271EC2B35600B1F6C7 /* BasicLoadingAnimationViewController.swift */,
 				047A05501E49966A00D2CDB5 /* LaunchScreenViewController.swift */,
 				043D79981E4AB7FE00B80296 /* LoadingIndicatorViewController.swift */,
 				043D79A81E4B0A6900B80296 /* LoginViewController.swift */,
+				0412D9871ED818C200397B3F /* StrechViewController.swift */,
 				0465A39F1E4C4A7400BAB06D /* LoginTextFieldAnimationViewController.swift */,
 				0465A3A11E4C701E00BAB06D /* ShoppingViewController.swift */,
 				04CC7F851E4D8770002A0958 /* SignViewController.swift */,
@@ -416,6 +421,7 @@
 				047A05291E4995AF00D2CDB5 /* Assets.xcassets */,
 				047A052B1E4995AF00D2CDB5 /* LaunchScreen.storyboard */,
 				047A052E1E4995AF00D2CDB5 /* Info.plist */,
+				049F6B1D1EF8CAFD0080EE7A /* Loading_Bridging_Header_h.h */,
 			);
 			path = Loading;
 			sourceTree = "<group>";
@@ -480,7 +486,7 @@
 		7AD0FCDBCA9A82685C7E7DD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA9E602A96F04D74678DA3B9 /* libPods-Loading.a */,
+				9B057558D4F19F539C1289A1 /* Pods_Loading.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -687,8 +693,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F965F61E6D07B500FAD5AA /* CountingViewController.swift in Sources */,
+				049F6B151EF8B0830080EE7A /* ADViewController.swift in Sources */,
 				040B377E1E5EAF3E00795190 /* StudyOnLineViewController.swift in Sources */,
 				043C7CF61E890E590009C6C2 /* TapTableViewCell.swift in Sources */,
+				0412D9881ED818C200397B3F /* StrechViewController.swift in Sources */,
 				047AF3161E77CFDF007E6A0C /* BaseDragerViewController.swift in Sources */,
 				04645A911E84F2ED000D2B7F /* NavgationImgScaleViewController.swift in Sources */,
 				0458E05A1E56D21B001EA20B /* PopPresentViewControoler.swift in Sources */,
@@ -896,12 +904,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 64A32B597K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SnapKit\"/**",
+				);
 				INFOPLIST_FILE = Loading/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jlkj.Loading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Loading/Loading-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -915,11 +930,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 64A32B597K;
 				INFOPLIST_FILE = Loading/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jlkj.Loading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Loading/Loading-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
