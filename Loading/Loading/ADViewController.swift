@@ -19,6 +19,8 @@ class ADViewController : UIViewController{
     //是否显示页面
     var visiable = true
     
+   
+    
     typealias ADCompleteBlock = () -> Void
     var complete:ADCompleteBlock?
     
@@ -85,6 +87,8 @@ class ADViewController : UIViewController{
         if timer == nil {
             timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(time), userInfo: nil, repeats: true)
         }
+        
+         print("test")
     }
     
     //MARK:加载图片
