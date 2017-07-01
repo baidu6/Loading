@@ -88,7 +88,7 @@ class ADViewController : UIViewController{
             timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(time), userInfo: nil, repeats: true)
         }
         
-         print("test")
+         print("aaaaa")
     }
     
     //MARK:加载图片
