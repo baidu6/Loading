@@ -78,6 +78,7 @@
 		04F4FEDD1E70F9BA0017937F /* TapAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4FEDC1E70F9BA0017937F /* TapAnimationModel.swift */; };
 		04F965F61E6D07B500FAD5AA /* CountingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F965F51E6D07B500FAD5AA /* CountingViewController.swift */; };
 		4822A3B085C29C8ED2A3F5E5 /* Pods_Loading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B057558D4F19F539C1289A1 /* Pods_Loading.framework */; };
+		CB9AD6AE1F260F4E00062B86 /* InsertDatasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9AD6AD1F260F4E00062B86 /* InsertDatasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +179,7 @@
 		04F965F51E6D07B500FAD5AA /* CountingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingViewController.swift; sourceTree = "<group>"; };
 		77ED8C83FF1CAB4979811AAC /* Pods-Loading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loading.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loading/Pods-Loading.release.xcconfig"; sourceTree = "<group>"; };
 		9B057558D4F19F539C1289A1 /* Pods_Loading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9AD6AD1F260F4E00062B86 /* InsertDatasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertDatasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +418,7 @@
 				040EFA231E6697160057AB52 /* UCHeaderPullAnimationViewController.swift */,
 				04F965F51E6D07B500FAD5AA /* CountingViewController.swift */,
 				0400F79C1EC00B63003FBAA1 /* SearchBarViewController.swift */,
+				CB9AD6AD1F260F4E00062B86 /* InsertDatasViewController.swift */,
 				043481951E6FB883000AAB5F /* TableView点击动画 */,
 				047A05261E4995AF00D2CDB5 /* Main.storyboard */,
 				047A05291E4995AF00D2CDB5 /* Assets.xcassets */,
@@ -718,6 +721,7 @@
 				0411424A1E79534900663882 /* NavWaveView.swift in Sources */,
 				041142481E79532C00663882 /* NavWaveViewController.swift in Sources */,
 				041EE3EE1E54051300593A77 /* GestureUnlockViewController.swift in Sources */,
+				CB9AD6AE1F260F4E00062B86 /* InsertDatasViewController.swift in Sources */,
 				04186D2C1E7B87C400CC4951 /* MenuDetailViewController.swift in Sources */,
 				043D79991E4AB7FE00B80296 /* LoadingIndicatorViewController.swift in Sources */,
 				047A05511E49966A00D2CDB5 /* LaunchScreenViewController.swift in Sources */,
